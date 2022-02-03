@@ -2,186 +2,738 @@
   "orders": [
     {
       "orderNumber": 557,
-      "Provider": "Babbleblab",
-      "Date": "20/01/2022",
+      "provider": "Babbleblab",
+      "date": "2022-01-20",
       "order": [
         {
+          "id": 1,
           "state": false,
-          "Description": "Pediculosis due to Pediculus humanus capitis",
-          "Import": "€1147,63"
+          "description": "Pediculosis due to Pediculus humanus capitis",
+          "import": 1147.63
         },
         {
+          "id": 2,
           "state": true,
-          "Description": "Occupant of streetcar injured in unsp traffic accident",
-          "Import": "€611,03"
+          "description": "Occupant of streetcar injured in unsp traffic accident",
+          "import": 611.03
+        },
+        {
+          "id": 3,
+          "state": true,
+          "description": "Occupant of streetcar injured in unsp traffic accident",
+          "import": 611.03
+        },
+        {
+          "id": 4,
+          "state": false,
+          "description": "Drowning and submersion due to canoe or kayak sinking, init",
+          "import": 100.52
+        },
+        {
+          "id": 5,
+          "state": false,
+          "description": "Obstructed labor due to breech presentation, fetus 3",
+          "import": 718.9
         }
       ]
     },
     {
-      "orderNumber": 772,
-      "Provider": "Zoonder",
-      "Date": "07/12/2021",
-      "order": {
-        "state": true,
-        "Description": "Nondisp fx of ant column of left acetab, init for opn fx",
-        "Import": "€338,69"
-      }
+      "orderNumber": 580,
+      "provider": "Plajo",
+      "date": "2021-08-17",
+      "order": [
+        {
+          "id": 384,
+          "state": true,
+          "description": "Bypass Gallbladder to Stomach, Open Approach",
+          "import": 1262
+        },
+        {
+          "id": 157,
+          "state": true,
+          "description": "Replacement of Left Atrium with Autol Sub, Open Approach",
+          "import": 549
+        },
+        {
+          "id": 27,
+          "state": false,
+          "description": "Insertion of Endotracheal Airway into Trachea, Perc Approach",
+          "import": 1363
+        },
+        {
+          "id": 35,
+          "state": true,
+          "description": "Supplement Left Kidney Pelvis with Synth Sub, Open Approach",
+          "import": 481
+        },
+        {
+          "id": 372,
+          "state": true,
+          "description": "Revision of Liner in Right Knee Joint, Open Approach",
+          "import": 916
+        }
+      ]
     },
     {
-      "orderNumber": 309,
-      "Provider": "Eazzy",
-      "Date": "20/03/2021",
-      "order": {
-        "state": true,
-        "Description": "Nondisp commnt fx r patella, subs for clos fx w delay heal",
-        "Import": "€556,49"
-      }
+      "orderNumber": 373,
+      "provider": "Topicblab",
+      "date": "2021-03-03",
+      "order": [
+        {
+          "id": 122,
+          "state": false,
+          "description": "Remove Drain Dev from Up Extrem Subcu/Fascia, Open",
+          "import": 1256
+        },
+        {
+          "id": 761,
+          "state": false,
+          "description": "Dilation of Trachea, Open Approach",
+          "import": 1123
+        },
+        {
+          "id": 437,
+          "state": false,
+          "description": "Dilate L Axilla Art, Bifurc, w 3 Drug-elut, Perc",
+          "import": 1464
+        },
+        {
+          "id": 872,
+          "state": false,
+          "description": "Drainage of Sacrum with Drainage Device, Open Approach",
+          "import": 174
+        },
+        {
+          "id": 48,
+          "state": false,
+          "description": "Supplement Left 1st Toe with Nonaut Sub, Perc Endo Approach",
+          "import": 434
+        },
+        {
+          "id": 565,
+          "state": true,
+          "description": "Drainage of Nasopharynx, Open Approach",
+          "import": 1153
+        }
+      ]
     },
     {
-      "orderNumber": 589,
-      "Provider": "Jabberbean",
-      "Date": "18/08/2021",
-      "order": {
-        "state": false,
-        "Description": "Other synovitis and tenosynovitis, unspecified upper arm",
-        "Import": "€590,68"
-      }
+      "orderNumber": 704,
+      "provider": "Skippad",
+      "date": "2021-09-05",
+      "order": [
+        {
+          "id": 142,
+          "state": false,
+          "description": "Revision of Extraluminal Device in Low Art, Open Approach",
+          "import": 65
+        },
+        {
+          "id": 730,
+          "state": true,
+          "description": "Excision of Cervical Vertebral Joint, Perc Approach, Diagn",
+          "import": 662
+        },
+        {
+          "id": 716,
+          "state": true,
+          "description": "Drainage of Left External Ear, Open Approach",
+          "import": 1263
+        },
+        {
+          "id": 593,
+          "state": true,
+          "description": "Supplement Left Patella with Nonaut Sub, Perc Endo Approach",
+          "import": 591
+        },
+        {
+          "id": 384,
+          "state": true,
+          "description": "Bypass Gallbladder to Stomach, Open Approach",
+          "import": 1262
+        },
+        {
+          "id": 157,
+          "state": true,
+          "description": "Replacement of Left Atrium with Autol Sub, Open Approach",
+          "import": 549
+        }
+      ]
     },
     {
-      "orderNumber": 718,
-      "Provider": "Kimia",
-      "Date": "18/08/2021",
-      "order": {
-        "state": true,
-        "Description": "Encntr for exam for delay growth in childhood",
-        "Import": "€940,58"
-      }
+      "orderNumber": 599,
+      "provider": "Mudo",
+      "date": "2021-11-11",
+      "order": [
+        {
+          "id": 170,
+          "state": false,
+          "description": "Excision of Left Lower Femur, Open Approach",
+          "import": 402
+        },
+        {
+          "id": 560,
+          "state": false,
+          "description": "Dilation of L Renal Art with 4 Drug-elut, Open Approach",
+          "import": 1316
+        },
+        {
+          "id": 478,
+          "state": true,
+          "description": "Reposition Right Internal Mammary Artery, Open Approach",
+          "import": 1411
+        },
+        {
+          "id": 307,
+          "state": true,
+          "description": "Dilate R Thyroid Art, Bifurc, w 4 Drug-elut, Open",
+          "import": 1472
+        }
+      ]
     },
     {
-      "orderNumber": 836,
-      "Provider": "Jaxspan",
-      "Date": "28/09/2021",
-      "order": {
-        "state": false,
-        "Description": "Anterior sublux of proximal end of tibia, unsp knee, sequela",
-        "Import": "€525,44"
-      }
+      "orderNumber": 287,
+      "provider": "Livetube",
+      "date": "2022-01-12",
+      "order": [
+        {
+          "id": 170,
+          "state": false,
+          "description": "Excision of Left Lower Femur, Open Approach",
+          "import": 402
+        },
+        {
+          "id": 560,
+          "state": false,
+          "description": "Dilation of L Renal Art with 4 Drug-elut, Open Approach",
+          "import": 1316
+        },
+        {
+          "id": 478,
+          "state": true,
+          "description": "Reposition Right Internal Mammary Artery, Open Approach",
+          "import": 1411
+        },
+        {
+          "id": 307,
+          "state": true,
+          "description": "Dilate R Thyroid Art, Bifurc, w 4 Drug-elut, Open",
+          "import": 1472
+        },
+        {
+          "id": 122,
+          "state": false,
+          "description": "Remove Drain Dev from Up Extrem Subcu/Fascia, Open",
+          "import": 1256
+        },
+        {
+          "id": 761,
+          "state": false,
+          "description": "Dilation of Trachea, Open Approach",
+          "import": 1123
+        },
+        {
+          "id": 437,
+          "state": false,
+          "description": "Dilate L Axilla Art, Bifurc, w 3 Drug-elut, Perc",
+          "import": 1464
+        }
+      ]
     },
     {
-      "orderNumber": 915,
-      "Provider": "Voomm",
-      "Date": "12/05/2021",
-      "order": {
-        "state": true,
-        "Description": "Laceration of tail of pancreas, unsp degree, init encntr",
-        "Import": "€375,53"
-      }
+      "orderNumber": 549,
+      "provider": "Edgepulse",
+      "date": "2021-12-22",
+      "order": [
+        {
+          "id": 716,
+          "state": true,
+          "description": "Drainage of Left External Ear, Open Approach",
+          "import": 1263
+        },
+        {
+          "id": 593,
+          "state": true,
+          "description": "Supplement Left Patella with Nonaut Sub, Perc Endo Approach",
+          "import": 591
+        },
+        {
+          "id": 384,
+          "state": true,
+          "description": "Bypass Gallbladder to Stomach, Open Approach",
+          "import": 1262
+        },
+        {
+          "id": 157,
+          "state": true,
+          "description": "Replacement of Left Atrium with Autol Sub, Open Approach",
+          "import": 549
+        },
+        {
+          "id": 27,
+          "state": false,
+          "description": "Insertion of Endotracheal Airway into Trachea, Perc Approach",
+          "import": 1363
+        },
+        {
+          "id": 35,
+          "state": true,
+          "description": "Supplement Left Kidney Pelvis with Synth Sub, Open Approach",
+          "import": 481
+        },
+        {
+          "id": 372,
+          "state": true,
+          "description": "Revision of Liner in Right Knee Joint, Open Approach",
+          "import": 916
+        }
+      ]
     },
     {
-      "orderNumber": 546,
-      "Provider": "Digitube",
-      "Date": "12/03/2021",
-      "order": {
-        "state": true,
-        "Description": "Drowning and submersion due to passenger ship overturning",
-        "Import": "€856,36"
-      }
+      "orderNumber": 427,
+      "provider": "Eidel",
+      "date": "2021-09-06",
+      "order": [
+        {
+          "id": 170,
+          "state": false,
+          "description": "Excision of Left Lower Femur, Open Approach",
+          "import": 402
+        },
+        {
+          "id": 560,
+          "state": false,
+          "description": "Dilation of L Renal Art with 4 Drug-elut, Open Approach",
+          "import": 1316
+        },
+        {
+          "id": 478,
+          "state": true,
+          "description": "Reposition Right Internal Mammary Artery, Open Approach",
+          "import": 1411
+        },
+        {
+          "id": 307,
+          "state": true,
+          "description": "Dilate R Thyroid Art, Bifurc, w 4 Drug-elut, Open",
+          "import": 1472
+        },
+        {
+          "id": 122,
+          "state": false,
+          "description": "Remove Drain Dev from Up Extrem Subcu/Fascia, Open",
+          "import": 1256
+        },
+        {
+          "id": 761,
+          "state": false,
+          "description": "Dilation of Trachea, Open Approach",
+          "import": 1123
+        },
+        {
+          "id": 437,
+          "state": false,
+          "description": "Dilate L Axilla Art, Bifurc, w 3 Drug-elut, Perc",
+          "import": 1464
+        },
+        {
+          "id": 872,
+          "state": false,
+          "description": "Drainage of Sacrum with Drainage Device, Open Approach",
+          "import": 174
+        }
+      ]
     },
     {
-      "orderNumber": 641,
-      "Provider": "Edgeify",
-      "Date": "03/03/2021",
-      "order": {
-        "state": true,
-        "Description": "Ulcerative (chronic) rectosigmoiditis w intestinal obst",
-        "Import": "€556,89"
-      }
+      "orderNumber": 991,
+      "provider": "Einti",
+      "date": "2021-08-10",
+      "order": [
+        {
+          "id": 872,
+          "state": false,
+          "description": "Drainage of Sacrum with Drainage Device, Open Approach",
+          "import": 174
+        },
+        {
+          "id": 48,
+          "state": false,
+          "description": "Supplement Left 1st Toe with Nonaut Sub, Perc Endo Approach",
+          "import": 434
+        },
+        {
+          "id": 565,
+          "state": true,
+          "description": "Drainage of Nasopharynx, Open Approach",
+          "import": 1153
+        },
+        {
+          "id": 142,
+          "state": false,
+          "description": "Revision of Extraluminal Device in Low Art, Open Approach",
+          "import": 65
+        },
+        {
+          "id": 730,
+          "state": true,
+          "description": "Excision of Cervical Vertebral Joint, Perc Approach, Diagn",
+          "import": 662
+        },
+        {
+          "id": 716,
+          "state": true,
+          "description": "Drainage of Left External Ear, Open Approach",
+          "import": 1263
+        },
+        {
+          "id": 593,
+          "state": true,
+          "description": "Supplement Left Patella with Nonaut Sub, Perc Endo Approach",
+          "import": 591
+        },
+        {
+          "id": 384,
+          "state": true,
+          "description": "Bypass Gallbladder to Stomach, Open Approach",
+          "import": 1262
+        },
+        {
+          "id": 157,
+          "state": true,
+          "description": "Replacement of Left Atrium with Autol Sub, Open Approach",
+          "import": 549
+        }
+      ]
     },
     {
-      "orderNumber": 91,
-      "Provider": "Rhycero",
-      "Date": "27/01/2022",
-      "order": {
-        "state": false,
-        "Description": "Drowning and submersion due to canoe or kayak sinking, init",
-        "Import": "€100,52"
-      }
+      "orderNumber": 845,
+      "provider": "Yadel",
+      "date": "2021-09-25",
+      "order": [
+        {
+          "id": 730,
+          "state": true,
+          "description": "Excision of Cervical Vertebral Joint, Perc Approach, Diagn",
+          "import": 662
+        },
+        {
+          "id": 716,
+          "state": true,
+          "description": "Drainage of Left External Ear, Open Approach",
+          "import": 1263
+        },
+        {
+          "id": 593,
+          "state": true,
+          "description": "Supplement Left Patella with Nonaut Sub, Perc Endo Approach",
+          "import": 591
+        },
+        {
+          "id": 384,
+          "state": true,
+          "description": "Bypass Gallbladder to Stomach, Open Approach",
+          "import": 1262
+        },
+        {
+          "id": 157,
+          "state": true,
+          "description": "Replacement of Left Atrium with Autol Sub, Open Approach",
+          "import": 549
+        },
+        {
+          "id": 27,
+          "state": false,
+          "description": "Insertion of Endotracheal Airway into Trachea, Perc Approach",
+          "import": 1363
+        }
+      ]
     },
     {
-      "orderNumber": 710,
-      "Provider": "Izio",
-      "Date": "09/05/2021",
-      "order": {
-        "state": true,
-        "Description": "Oth fx unsp low leg, 7thF",
-        "Import": "€1226,04"
-      }
+      "orderNumber": 226,
+      "provider": "Blogtag",
+      "date": "2021-05-16",
+      "order": [
+        {
+          "id": 478,
+          "state": true,
+          "description": "Reposition Right Internal Mammary Artery, Open Approach",
+          "import": 1411
+        },
+        {
+          "id": 307,
+          "state": true,
+          "description": "Dilate R Thyroid Art, Bifurc, w 4 Drug-elut, Open",
+          "import": 1472
+        },
+        {
+          "id": 122,
+          "state": false,
+          "description": "Remove Drain Dev from Up Extrem Subcu/Fascia, Open",
+          "import": 1256
+        },
+        {
+          "id": 761,
+          "state": false,
+          "description": "Dilation of Trachea, Open Approach",
+          "import": 1123
+        },
+        {
+          "id": 437,
+          "state": false,
+          "description": "Dilate L Axilla Art, Bifurc, w 3 Drug-elut, Perc",
+          "import": 1464
+        },
+        {
+          "id": 872,
+          "state": false,
+          "description": "Drainage of Sacrum with Drainage Device, Open Approach",
+          "import": 174
+        },
+        {
+          "id": 48,
+          "state": false,
+          "description": "Supplement Left 1st Toe with Nonaut Sub, Perc Endo Approach",
+          "import": 434
+        },
+        {
+          "id": 565,
+          "state": true,
+          "description": "Drainage of Nasopharynx, Open Approach",
+          "import": 1153
+        }
+      ]
     },
     {
-      "orderNumber": 886,
-      "Provider": "Blogspan",
-      "Date": "16/12/2021",
-      "order": {
-        "state": false,
-        "Description": "Disp fx of base of 3rd MC bone, l hand, 7thK",
-        "Import": "€1184,90"
-      }
+      "orderNumber": 517,
+      "provider": "Zava",
+      "date": "2021-10-23",
+      "order": [
+        {
+          "id": 48,
+          "state": false,
+          "description": "Supplement Left 1st Toe with Nonaut Sub, Perc Endo Approach",
+          "import": 434
+        },
+        {
+          "id": 565,
+          "state": true,
+          "description": "Drainage of Nasopharynx, Open Approach",
+          "import": 1153
+        },
+        {
+          "id": 142,
+          "state": false,
+          "description": "Revision of Extraluminal Device in Low Art, Open Approach",
+          "import": 65
+        },
+        {
+          "id": 730,
+          "state": true,
+          "description": "Excision of Cervical Vertebral Joint, Perc Approach, Diagn",
+          "import": 662
+        },
+        {
+          "id": 716,
+          "state": true,
+          "description": "Drainage of Left External Ear, Open Approach",
+          "import": 1263
+        }
+      ]
     },
     {
-      "orderNumber": 739,
-      "Provider": "Meeveo",
-      "Date": "29/10/2021",
-      "order": {
-        "state": true,
-        "Description": "Unspecified transfusion reaction, subsequent encounter",
-        "Import": "€852,14"
-      }
+      "orderNumber": 490,
+      "provider": "Livetube",
+      "date": "2021-09-29",
+      "order": [
+        {
+          "id": 761,
+          "state": false,
+          "description": "Dilation of Trachea, Open Approach",
+          "import": 1123
+        },
+        {
+          "id": 437,
+          "state": false,
+          "description": "Dilate L Axilla Art, Bifurc, w 3 Drug-elut, Perc",
+          "import": 1464
+        },
+        {
+          "id": 872,
+          "state": false,
+          "description": "Drainage of Sacrum with Drainage Device, Open Approach",
+          "import": 174
+        },
+        {
+          "id": 48,
+          "state": false,
+          "description": "Supplement Left 1st Toe with Nonaut Sub, Perc Endo Approach",
+          "import": 434
+        },
+        {
+          "id": 565,
+          "state": true,
+          "description": "Drainage of Nasopharynx, Open Approach",
+          "import": 1153
+        },
+        {
+          "id": 142,
+          "state": false,
+          "description": "Revision of Extraluminal Device in Low Art, Open Approach",
+          "import": 65
+        },
+        {
+          "id": 730,
+          "state": true,
+          "description": "Excision of Cervical Vertebral Joint, Perc Approach, Diagn",
+          "import": 662
+        },
+        {
+          "id": 716,
+          "state": true,
+          "description": "Drainage of Left External Ear, Open Approach",
+          "import": 1263
+        },
+        {
+          "id": 593,
+          "state": true,
+          "description": "Supplement Left Patella with Nonaut Sub, Perc Endo Approach",
+          "import": 591
+        },
+        {
+          "id": 384,
+          "state": true,
+          "description": "Bypass Gallbladder to Stomach, Open Approach",
+          "import": 1262
+        }
+      ]
     },
     {
-      "orderNumber": 701,
-      "Provider": "Wordware",
-      "Date": "28/07/2021",
-      "order": {
-        "state": false,
-        "Description": "Laceration of dorsal vein of right foot, initial encounter",
-        "Import": "€1325,60"
-      }
+      "orderNumber": 115,
+      "provider": "Yodo",
+      "date": "2021-05-04",
+      "order": [
+        {
+          "id": 593,
+          "state": true,
+          "description": "Supplement Left Patella with Nonaut Sub, Perc Endo Approach",
+          "import": 591
+        },
+        {
+          "id": 384,
+          "state": true,
+          "description": "Bypass Gallbladder to Stomach, Open Approach",
+          "import": 1262
+        },
+        {
+          "id": 157,
+          "state": true,
+          "description": "Replacement of Left Atrium with Autol Sub, Open Approach",
+          "import": 549
+        },
+        {
+          "id": 27,
+          "state": false,
+          "description": "Insertion of Endotracheal Airway into Trachea, Perc Approach",
+          "import": 1363
+        },
+        {
+          "id": 35,
+          "state": true,
+          "description": "Supplement Left Kidney Pelvis with Synth Sub, Open Approach",
+          "import": 481
+        },
+        {
+          "id": 372,
+          "state": true,
+          "description": "Revision of Liner in Right Knee Joint, Open Approach",
+          "import": 916
+        }
+      ]
     },
     {
-      "orderNumber": 29,
-      "Provider": "Blogpad",
-      "Date": "03/06/2021",
-      "order": {}
-    },
-    {
-      "orderNumber": 211,
-      "Provider": "Trunyx",
-      "Date": "24/08/2021",
-      "order": {}
-    },
-    {
-      "orderNumber": 671,
-      "Provider": "Demizz",
-      "Date": "03/04/2021",
-      "order": {}
-    },
-    {
-      "orderNumber": 492,
-      "Provider": "Browseblab",
-      "Date": "08/02/2021",
-      "order": {}
-    },
-    {
-      "orderNumber": 661,
-      "Provider": "Talane",
-      "Date": "18/11/2021",
-      "order": {}
-    },
-    {
-      "orderNumber": 507,
-      "Provider": "Brightbean",
-      "Date": "12/03/2021",
-      "order": {}
+      "orderNumber": 948,
+      "provider": "Ntags",
+      "date": "2021-04-05",
+      "order": [
+        {
+          "id": 170,
+          "state": false,
+          "description": "Excision of Left Lower Femur, Open Approach",
+          "import": 402
+        },
+        {
+          "id": 560,
+          "state": false,
+          "description": "Dilation of L Renal Art with 4 Drug-elut, Open Approach",
+          "import": 1316
+        },
+        {
+          "id": 478,
+          "state": true,
+          "description": "Reposition Right Internal Mammary Artery, Open Approach",
+          "import": 1411
+        },
+        {
+          "id": 307,
+          "state": true,
+          "description": "Dilate R Thyroid Art, Bifurc, w 4 Drug-elut, Open",
+          "import": 1472
+        },
+        {
+          "id": 122,
+          "state": false,
+          "description": "Remove Drain Dev from Up Extrem Subcu/Fascia, Open",
+          "import": 1256
+        },
+        {
+          "id": 761,
+          "state": false,
+          "description": "Dilation of Trachea, Open Approach",
+          "import": 1123
+        },
+        {
+          "id": 437,
+          "state": false,
+          "description": "Dilate L Axilla Art, Bifurc, w 3 Drug-elut, Perc",
+          "import": 1464
+        },
+        {
+          "id": 872,
+          "state": false,
+          "description": "Drainage of Sacrum with Drainage Device, Open Approach",
+          "import": 174
+        },
+        {
+          "id": 48,
+          "state": false,
+          "description": "Supplement Left 1st Toe with Nonaut Sub, Perc Endo Approach",
+          "import": 434
+        },
+        {
+          "id": 565,
+          "state": true,
+          "description": "Drainage of Nasopharynx, Open Approach",
+          "import": 1153
+        },
+        {
+          "id": 142,
+          "state": false,
+          "description": "Revision of Extraluminal Device in Low Art, Open Approach",
+          "import": 65
+        },
+        {
+          "id": 730,
+          "state": true,
+          "description": "Excision of Cervical Vertebral Joint, Perc Approach, Diagn",
+          "import": 662
+        },
+        {
+          "id": 716,
+          "state": true,
+          "description": "Drainage of Left External Ear, Open Approach",
+          "import": 1263
+        }
+      ]
     }
   ]
 }

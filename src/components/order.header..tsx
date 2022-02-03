@@ -1,14 +1,11 @@
 import React from "react";
-import {
-  MuiPickersUtilsProvider,
-  KeyboardDatePicker,
-} from "@material-ui/pickers";
-import DateFnsUtils from "@date-io/date-fns";
 import { makeStyles } from "@material-ui/core/styles";
+import { Order, OrderForm } from "../core/myContext.model";
+import { getOrdersList } from "../api/api";
+import { OrderDetailTable } from "./order.detail.table";
 
-import DataTable from "./order.detail.table";
-const useStyles = makeStyles(() => ({
-  containerDates: {
+const orderHeaderStyles = makeStyles(() => ({
+  containerDatas: {
     boxSizing: "border-box",
     padding: "1.5rem",
     border: "1px solid black",
@@ -16,7 +13,7 @@ const useStyles = makeStyles(() => ({
     flexDirection: "column",
     width: "800px",
   },
-  dates: {
+  datas: {
     display: "flex",
     "& > div": {
       margin: "0 2rem",
@@ -28,6 +25,15 @@ const useStyles = makeStyles(() => ({
   item: {
     fontSize: "1.2rem",
     fontWeight: "bold",
+  },
+  dateContainer: {
+    display: "flex",
+    flexWrap: "wrap",
+  },
+  textField: {
+    marginLeft: "12px",
+    marginRight: "12px",
+    width: 200,
   },
   import: {
     display: "flex",
@@ -57,52 +63,52 @@ const useStyles = makeStyles(() => ({
     margin: "18px 0",
   },
 }));
+export const Header = () => {
+  const [data, setData] = React.useState<OrderForm>({
+    orderNumber: 0,
+    provider: "",
+    date: "",
+    order: [],
+  });
+  const [orderPage, setOrderPage] = React.useState<number>(0);
+  const [totalImport, setTotalImport] = React.useState<number>(0);
 
-interface Props {
-  orderNumber: number;
-  supplierName: string;
-}
+  React.useEffect(() => {
+    getOrdersList(orderPage).then((datas: OrderForm) => {
+      setTotalImport(
+        datas.order.reduce((acc, c) => (acc = acc + Number(c.import)), 0)
+      );
+      if (datas) {
+        setData(datas);
+      }
+    });
+  }, [orderPage]);
 
-export const Header = (props: Props) => {
-  const { orderNumber, supplierName } = props;
-  const [selectedDate, setSelectedDate] = React.useState<Date | null>(
-    new Date()
-  );
-  const [totalImport, setTotalImport] = React.useState(1);
+  const classes = orderHeaderStyles();
 
-  const classes = useStyles();
-
-  const handleDateChange = (date: Date | null) => {
-    setSelectedDate(date);
+  const handleClickPrev = () => {
+    if (orderPage > 0) setOrderPage(orderPage - 1);
+  };
+  const handleClickNext = () => {
+    setOrderPage(orderPage + 1);
   };
 
   return (
     <>
       <h1>Request to supplier</h1>
-      <div className={classes.containerDates}>
-        <div className={classes.dates}>
+      <button onClick={handleClickPrev}>Prev</button>
+      <button onClick={handleClickNext}>Next</button>
+      <div className={classes.containerDatas}>
+        <div className={classes.datas}>
           <div>
             <span className={classes.item}>Order Number</span>
-            <span>{orderNumber}</span>
+            <span>{data.orderNumber}</span>
           </div>
           <div>
             <span className={classes.item}>Supplier Name</span>
-            <span>{supplierName}</span>
+            <span>{data.provider}</span>
           </div>
-          <MuiPickersUtilsProvider utils={DateFnsUtils}>
-            <KeyboardDatePicker
-              variant="inline"
-              format="dd/MM/yyyy"
-              margin="normal"
-              id="date-picker-inline"
-              label="Order date"
-              value={selectedDate}
-              onChange={handleDateChange}
-              KeyboardButtonProps={{
-                "aria-label": "change date",
-              }}
-            />
-          </MuiPickersUtilsProvider>
+          <input type="date" defaultValue={data.date} />
         </div>
         <div className={classes.results}>
           <div>
@@ -119,9 +125,7 @@ export const Header = (props: Props) => {
         <button>Validate</button>
         <button>Invalidate</button>
       </div>
-      <div className={classes.orderDetail}>
-        <DataTable />
-      </div>
+      <OrderDetailTable order={data.order} />
     </>
   );
 };

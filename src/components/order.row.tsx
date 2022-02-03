@@ -1,8 +1,7 @@
 import React from "react";
 import TableRow from "@material-ui/core/TableRow";
 import TableCell from "@material-ui/core/TableCell";
-
-import { Order } from "./order.detail.table";
+import { Order } from "../core/myContext.model";
 
 interface Props {
   product: Order;
@@ -10,23 +9,26 @@ interface Props {
 
 export const OrderRow = (props: Props) => {
   const { product } = props;
-  const [state, setState] = React.useState(product.state);
+  const [orderLine, setOrderLine] = React.useState(product);
   const handleClick = () => {
-    setState(!state);
-    product.state = state;
+    setOrderLine({ ...orderLine, state: !orderLine.state });
   };
 
   return (
-    <TableRow key={product.id}>
+    <TableRow key={orderLine.id}>
       <TableCell size="small" scope="row">
-        <input type="checkbox" checked={state} onClick={handleClick}></input>
+        <input
+          type="checkbox"
+          checked={orderLine.state}
+          onChange={handleClick}
+        ></input>
       </TableCell>
       <TableCell align="left">
         {product.state ? "validated" : "Pending "}
       </TableCell>
       <TableCell align="left">{product.description}</TableCell>
       <TableCell align="center">
-        <input type="number" placeholder={`${product.Import} €`} />
+        <input type="number" placeholder={`${product.import} €`} />
       </TableCell>
     </TableRow>
   );

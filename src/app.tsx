@@ -1,11 +1,12 @@
 import React from "react";
 
-import { Header } from "./components/order";
+import { MyContextProvider } from "./core/myContext.";
+import { Order } from "./order";
 
 export const App = () => {
   return (
-    <div>
-      <Header orderNumber={124234} supplierName={"Pepito"} />
-    </div>
+    // <MyContextProvider>
+    <Order />
+    // </MyContextProvider>
   );
 };

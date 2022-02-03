@@ -9,6 +9,7 @@ import TableRow from "@material-ui/core/TableRow";
 import Paper from "@material-ui/core/Paper";
 
 import { OrderRow } from "./order.row";
+import { Order, OrderForm } from "../core/myContext.model";
 
 const useStyles = makeStyles({
   table: {
@@ -17,60 +18,13 @@ const useStyles = makeStyles({
   },
 });
 
-export interface Order {
-  id: number;
-  state: boolean;
-  description: string;
-  Import: number;
-}
-
-interface OrderForm {
-  orderNumber: number;
-  Provider: string;
-  Date: string;
+interface Props {
   order: Order[];
 }
 
-const dates: OrderForm = {
-  orderNumber: 557,
-  Provider: "Babbleblab",
-  Date: "20/01/2022",
-  order: [
-    {
-      id: 1,
-      state: false,
-      description: "Pediculosis due to Pediculus humanus capitis",
-      Import: 1147.63,
-    },
-    {
-      id: 2,
-      state: true,
-      description: "Occupant of streetcar injured in unsp traffic accident",
-      Import: 611.03,
-    },
-    {
-      id: 3,
-      state: true,
-      description: "Occupant of streetcar injured in unsp traffic accident",
-      Import: 611.03,
-    },
-    {
-      id: 4,
-      state: false,
-      description:
-        "Drowning and submersion due to canoe or kayak sinking, init",
-      Import: 100.52,
-    },
-    {
-      id: 5,
-      state: false,
-      description: "Obstructed labor due to breech presentation, fetus 3",
-      Import: 718.9,
-    },
-  ],
-};
+export const OrderDetailTable = (props: Props) => {
+  const { order } = props;
 
-export default function DataTable() {
   const classes = useStyles();
 
   return (
@@ -85,11 +39,11 @@ export default function DataTable() {
           </TableRow>
         </TableHead>
         <TableBody>
-          {dates.order.map((element: Order) => (
+          {order.map((element) => (
             <OrderRow product={element} key={element.id} />
           ))}
         </TableBody>
       </Table>
     </TableContainer>
   );
-}
+};
