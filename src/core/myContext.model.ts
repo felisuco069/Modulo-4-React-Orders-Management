@@ -13,6 +13,6 @@ export interface OrderForm {
 }
 
 export interface Context {
-  dates: OrderForm;
-  setDates: (value: OrderForm) => void;
+  data: OrderForm;
+  setData: (value: OrderForm) => void;
 }

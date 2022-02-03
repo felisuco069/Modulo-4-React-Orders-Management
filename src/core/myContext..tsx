@@ -3,18 +3,28 @@ import React from "react";
 import { Context, OrderForm } from "./myContext.model";
 
 export const MyContext = React.createContext<Context>({
-  dates: [],
-  setDates: (value) => {},
+  data: {
+    orderNumber: 0,
+    provider: "",
+    date: "",
+    order: [],
+  },
+  setData: (value) => {},
 });
 
 export const MyContextProvider: React.FC = ({ children }) => {
-  const [dates, setDates] = React.useState<OrderForm[]>([]);
+  const [data, setData] = React.useState<OrderForm>({
+    orderNumber: 0,
+    provider: "",
+    date: "",
+    order: [],
+  });
 
   return (
     <MyContext.Provider
       value={{
-        dates,
-        setDates,
+        data,
+        setData,
       }}
     >
       {children}

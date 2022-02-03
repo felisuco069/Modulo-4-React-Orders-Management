@@ -5,8 +5,8 @@ import { Order } from "./order";
 
 export const App = () => {
   return (
-    // <MyContextProvider>
-    <Order />
-    // </MyContextProvider>
+    <MyContextProvider>
+      <Order />
+    </MyContextProvider>
   );
 };
