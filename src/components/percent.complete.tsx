@@ -1,6 +1,7 @@
 import { Hidden } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import React from "react";
+import { MyContext } from "../core/myContext.";
 import { Order } from "../core/myContext.model";
 
 interface Props {
@@ -24,26 +25,21 @@ const percentStyles = makeStyles(() => ({
   },
 }));
 
-interface Props {
-  order: Order[];
-}
-
-export const PercentComplete = (props: Props) => {
-  const { order } = props;
+export const PercentComplete = () => {
+  const { data } = React.useContext(MyContext);
   const [percent, setPercent] = React.useState<number>(0);
 
   const classes = percentStyles();
-  console.log(order);
   React.useEffect(() => {
-    const totalElement = order.length;
-    const elementChecked = order.filter((element) => element.state === true);
-    console.log(elementChecked);
+    const totalElement = data.order.length;
+    const elementChecked = data.order.filter(
+      (element) => element.state === true
+    );
     const percentComplete = Math.round(
       (elementChecked.length / totalElement) * 100
     );
-    console.log(percentComplete);
     setPercent(percentComplete);
-  }, [order]);
+  }, [data]);
 
   return (
     <div className={classes.container}>
