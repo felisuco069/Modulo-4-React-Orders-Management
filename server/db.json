@@ -7,35 +7,30 @@
       "order": [
         {
           "id": 1,
-          "isValidate": "Pending",
           "state": false,
           "description": "Pediculosis due to Pediculus humanus capitis",
           "import": 1147.63
         },
         {
           "id": 2,
-          "isValidate": "Pending",
           "state": false,
           "description": "Occupant of streetcar injured in unsp traffic accident",
           "import": 611.03
         },
         {
           "id": 3,
-          "isValidate": "Pending",
           "state": false,
           "description": "Occupant of streetcar injured in unsp traffic accident",
           "import": 611.03
         },
         {
           "id": 4,
-          "isValidate": "Pending",
           "state": false,
           "description": "Drowning and submersion due to canoe or kayak sinking, init",
           "import": 100.52
         },
         {
           "id": 5,
-          "isValidate": "Pending",
           "state": false,
           "description": "Obstructed labor due to breech presentation, fetus 3",
           "import": 718.9
@@ -49,35 +44,30 @@
       "order": [
         {
           "id": 384,
-          "isValidate": "Pending",
           "state": false,
           "description": "Bypass Gallbladder to Stomach, Open Approach",
           "import": 1262
         },
         {
           "id": 157,
-          "isValidate": "Pending",
           "state": false,
           "description": "Replacement of Left Atrium with Autol Sub, Open Approach",
           "import": 549
         },
         {
           "id": 27,
-          "isValidate": "Pending",
           "state": false,
           "description": "Insertion of Endotracheal Airway into Trachea, Perc Approach",
           "import": 1363
         },
         {
           "id": 35,
-          "isValidate": "Pending",
           "state": false,
           "description": "Supplement Left Kidney Pelvis with Synth Sub, Open Approach",
           "import": 481
         },
         {
           "id": 372,
-          "isValidate": "Pending",
           "state": false,
           "description": "Revision of Liner in Right Knee Joint, Open Approach",
           "import": 916
@@ -91,42 +81,36 @@
       "order": [
         {
           "id": 122,
-          "isValidate": "Pending",
           "state": false,
           "description": "Remove Drain Dev from Up Extrem Subcu/Fascia, Open",
           "import": 1256
         },
         {
           "id": 761,
-          "isValidate": "Pending",
           "state": false,
           "description": "Dilation of Trachea, Open Approach",
           "import": 1123
         },
         {
           "id": 437,
-          "isValidate": "Pending",
           "state": false,
           "description": "Dilate L Axilla Art, Bifurc, w 3 Drug-elut, Perc",
           "import": 1464
         },
         {
           "id": 872,
-          "isValidate": "Pending",
           "state": false,
           "description": "Drainage of Sacrum with Drainage Device, Open Approach",
           "import": 174
         },
         {
           "id": 48,
-          "isValidate": "Pending",
           "state": false,
           "description": "Supplement Left 1st Toe with Nonaut Sub, Perc Endo Approach",
           "import": 434
         },
         {
           "id": 565,
-          "isValidate": "Pending",
           "state": false,
           "description": "Drainage of Nasopharynx, Open Approach",
           "import": 1153
@@ -140,42 +124,36 @@
       "order": [
         {
           "id": 142,
-          "isValidate": "Pending",
           "state": false,
           "description": "Revision of Extraluminal Device in Low Art, Open Approach",
           "import": 65
         },
         {
           "id": 730,
-          "isValidate": "Pending",
           "state": false,
           "description": "Excision of Cervical Vertebral Joint, Perc Approach, Diagn",
           "import": 662
         },
         {
           "id": 716,
-          "isValidate": "Pending",
           "state": false,
           "description": "Drainage of Left External Ear, Open Approach",
           "import": 1263
         },
         {
           "id": 593,
-          "isValidate": "Pending",
           "state": false,
           "description": "Supplement Left Patella with Nonaut Sub, Perc Endo Approach",
           "import": 591
         },
         {
           "id": 384,
-          "isValidate": "Pending",
           "state": false,
           "description": "Bypass Gallbladder to Stomach, Open Approach",
           "import": 1262
         },
         {
           "id": 157,
-          "isValidate": "Pending",
           "state": false,
           "description": "Replacement of Left Atrium with Autol Sub, Open Approach",
           "import": 549
@@ -189,28 +167,24 @@
       "order": [
         {
           "id": 170,
-          "isValidate": "Pending",
           "state": false,
           "description": "Excision of Left Lower Femur, Open Approach",
           "import": 402
         },
         {
           "id": 560,
-          "isValidate": "Pending",
           "state": false,
           "description": "Dilation of L Renal Art with 4 Drug-elut, Open Approach",
           "import": 1316
         },
         {
           "id": 478,
-          "isValidate": "Pending",
           "state": false,
           "description": "Reposition Right Internal Mammary Artery, Open Approach",
           "import": 1411
         },
         {
           "id": 307,
-          "isValidate": "Pending",
           "state": false,
           "description": "Dilate R Thyroid Art, Bifurc, w 4 Drug-elut, Open",
           "import": 1472
@@ -224,49 +198,42 @@
       "order": [
         {
           "id": 170,
-          "isValidate": "Pending",
           "state": false,
           "description": "Excision of Left Lower Femur, Open Approach",
           "import": 402
         },
         {
           "id": 560,
-          "isValidate": "Pending",
           "state": false,
           "description": "Dilation of L Renal Art with 4 Drug-elut, Open Approach",
           "import": 1316
         },
         {
           "id": 478,
-          "isValidate": "Pending",
           "state": false,
           "description": "Reposition Right Internal Mammary Artery, Open Approach",
           "import": 1411
         },
         {
           "id": 307,
-          "isValidate": "Pending",
           "state": false,
           "description": "Dilate R Thyroid Art, Bifurc, w 4 Drug-elut, Open",
           "import": 1472
         },
         {
           "id": 122,
-          "isValidate": "Pending",
           "state": false,
           "description": "Remove Drain Dev from Up Extrem Subcu/Fascia, Open",
           "import": 1256
         },
         {
           "id": 761,
-          "isValidate": "Pending",
           "state": false,
           "description": "Dilation of Trachea, Open Approach",
           "import": 1123
         },
         {
           "id": 437,
-          "isValidate": "Pending",
           "state": false,
           "description": "Dilate L Axilla Art, Bifurc, w 3 Drug-elut, Perc",
           "import": 1464
@@ -280,49 +247,42 @@
       "order": [
         {
           "id": 716,
-          "isValidate": "Pending",
           "state": false,
           "description": "Drainage of Left External Ear, Open Approach",
           "import": 1263
         },
         {
           "id": 593,
-          "isValidate": "Pending",
           "state": false,
           "description": "Supplement Left Patella with Nonaut Sub, Perc Endo Approach",
           "import": 591
         },
         {
           "id": 384,
-          "isValidate": "Pending",
           "state": false,
           "description": "Bypass Gallbladder to Stomach, Open Approach",
           "import": 1262
         },
         {
           "id": 157,
-          "isValidate": "Pending",
           "state": false,
           "description": "Replacement of Left Atrium with Autol Sub, Open Approach",
           "import": 549
         },
         {
           "id": 27,
-          "isValidate": "Pending",
           "state": false,
           "description": "Insertion of Endotracheal Airway into Trachea, Perc Approach",
           "import": 1363
         },
         {
           "id": 35,
-          "isValidate": "Pending",
           "state": false,
           "description": "Supplement Left Kidney Pelvis with Synth Sub, Open Approach",
           "import": 481
         },
         {
           "id": 372,
-          "isValidate": "Pending",
           "state": false,
           "description": "Revision of Liner in Right Knee Joint, Open Approach",
           "import": 916
@@ -336,56 +296,48 @@
       "order": [
         {
           "id": 170,
-          "isValidate": "Pending",
           "state": false,
           "description": "Excision of Left Lower Femur, Open Approach",
           "import": 402
         },
         {
           "id": 560,
-          "isValidate": "Pending",
           "state": false,
           "description": "Dilation of L Renal Art with 4 Drug-elut, Open Approach",
           "import": 1316
         },
         {
           "id": 478,
-          "isValidate": "Pending",
           "state": false,
           "description": "Reposition Right Internal Mammary Artery, Open Approach",
           "import": 1411
         },
         {
           "id": 307,
-          "isValidate": "Pending",
           "state": false,
           "description": "Dilate R Thyroid Art, Bifurc, w 4 Drug-elut, Open",
           "import": 1472
         },
         {
           "id": 122,
-          "isValidate": "Pending",
           "state": false,
           "description": "Remove Drain Dev from Up Extrem Subcu/Fascia, Open",
           "import": 1256
         },
         {
           "id": 761,
-          "isValidate": "Pending",
           "state": false,
           "description": "Dilation of Trachea, Open Approach",
           "import": 1123
         },
         {
           "id": 437,
-          "isValidate": "Pending",
           "state": false,
           "description": "Dilate L Axilla Art, Bifurc, w 3 Drug-elut, Perc",
           "import": 1464
         },
         {
           "id": 872,
-          "isValidate": "Pending",
           "state": false,
           "description": "Drainage of Sacrum with Drainage Device, Open Approach",
           "import": 174
@@ -399,63 +351,54 @@
       "order": [
         {
           "id": 872,
-          "isValidate": "Pending",
           "state": false,
           "description": "Drainage of Sacrum with Drainage Device, Open Approach",
           "import": 174
         },
         {
           "id": 48,
-          "isValidate": "Pending",
           "state": false,
           "description": "Supplement Left 1st Toe with Nonaut Sub, Perc Endo Approach",
           "import": 434
         },
         {
           "id": 565,
-          "isValidate": "Pending",
           "state": false,
           "description": "Drainage of Nasopharynx, Open Approach",
           "import": 1153
         },
         {
           "id": 142,
-          "isValidate": "Pending",
           "state": false,
           "description": "Revision of Extraluminal Device in Low Art, Open Approach",
           "import": 65
         },
         {
           "id": 730,
-          "isValidate": "Pending",
           "state": false,
           "description": "Excision of Cervical Vertebral Joint, Perc Approach, Diagn",
           "import": 662
         },
         {
           "id": 716,
-          "isValidate": "Pending",
           "state": false,
           "description": "Drainage of Left External Ear, Open Approach",
           "import": 1263
         },
         {
           "id": 593,
-          "isValidate": "Pending",
           "state": false,
           "description": "Supplement Left Patella with Nonaut Sub, Perc Endo Approach",
           "import": 591
         },
         {
           "id": 384,
-          "isValidate": "Pending",
           "state": false,
           "description": "Bypass Gallbladder to Stomach, Open Approach",
           "import": 1262
         },
         {
           "id": 157,
-          "isValidate": "Pending",
           "state": false,
           "description": "Replacement of Left Atrium with Autol Sub, Open Approach",
           "import": 549
@@ -469,42 +412,36 @@
       "order": [
         {
           "id": 730,
-          "isValidate": "Pending",
           "state": false,
           "description": "Excision of Cervical Vertebral Joint, Perc Approach, Diagn",
           "import": 662
         },
         {
           "id": 716,
-          "isValidate": "Pending",
           "state": false,
           "description": "Drainage of Left External Ear, Open Approach",
           "import": 1263
         },
         {
           "id": 593,
-          "isValidate": "Pending",
           "state": false,
           "description": "Supplement Left Patella with Nonaut Sub, Perc Endo Approach",
           "import": 591
         },
         {
           "id": 384,
-          "isValidate": "Pending",
           "state": false,
           "description": "Bypass Gallbladder to Stomach, Open Approach",
           "import": 1262
         },
         {
           "id": 157,
-          "isValidate": "Pending",
           "state": false,
           "description": "Replacement of Left Atrium with Autol Sub, Open Approach",
           "import": 549
         },
         {
           "id": 27,
-          "isValidate": "Pending",
           "state": false,
           "description": "Insertion of Endotracheal Airway into Trachea, Perc Approach",
           "import": 1363
@@ -518,56 +455,48 @@
       "order": [
         {
           "id": 478,
-          "isValidate": "Pending",
           "state": false,
           "description": "Reposition Right Internal Mammary Artery, Open Approach",
           "import": 1411
         },
         {
           "id": 307,
-          "isValidate": "Pending",
           "state": false,
           "description": "Dilate R Thyroid Art, Bifurc, w 4 Drug-elut, Open",
           "import": 1472
         },
         {
           "id": 122,
-          "isValidate": "Pending",
           "state": false,
           "description": "Remove Drain Dev from Up Extrem Subcu/Fascia, Open",
           "import": 1256
         },
         {
           "id": 761,
-          "isValidate": "Pending",
           "state": false,
           "description": "Dilation of Trachea, Open Approach",
           "import": 1123
         },
         {
           "id": 437,
-          "isValidate": "Pending",
           "state": false,
           "description": "Dilate L Axilla Art, Bifurc, w 3 Drug-elut, Perc",
           "import": 1464
         },
         {
           "id": 872,
-          "isValidate": "Pending",
           "state": false,
           "description": "Drainage of Sacrum with Drainage Device, Open Approach",
           "import": 174
         },
         {
           "id": 48,
-          "isValidate": "Pending",
           "state": false,
           "description": "Supplement Left 1st Toe with Nonaut Sub, Perc Endo Approach",
           "import": 434
         },
         {
           "id": 565,
-          "isValidate": "Pending",
           "state": false,
           "description": "Drainage of Nasopharynx, Open Approach",
           "import": 1153
@@ -581,35 +510,30 @@
       "order": [
         {
           "id": 48,
-          "isValidate": "Pending",
           "state": false,
           "description": "Supplement Left 1st Toe with Nonaut Sub, Perc Endo Approach",
           "import": 434
         },
         {
           "id": 565,
-          "isValidate": "Pending",
           "state": false,
           "description": "Drainage of Nasopharynx, Open Approach",
           "import": 1153
         },
         {
           "id": 142,
-          "isValidate": "Pending",
           "state": false,
           "description": "Revision of Extraluminal Device in Low Art, Open Approach",
           "import": 65
         },
         {
           "id": 730,
-          "isValidate": "Pending",
           "state": false,
           "description": "Excision of Cervical Vertebral Joint, Perc Approach, Diagn",
           "import": 662
         },
         {
           "id": 716,
-          "isValidate": "Pending",
           "state": false,
           "description": "Drainage of Left External Ear, Open Approach",
           "import": 1263
@@ -623,70 +547,60 @@
       "order": [
         {
           "id": 761,
-          "isValidate": "Pending",
           "state": false,
           "description": "Dilation of Trachea, Open Approach",
           "import": 1123
         },
         {
           "id": 437,
-          "isValidate": "Pending",
           "state": false,
           "description": "Dilate L Axilla Art, Bifurc, w 3 Drug-elut, Perc",
           "import": 1464
         },
         {
           "id": 872,
-          "isValidate": "Pending",
           "state": false,
           "description": "Drainage of Sacrum with Drainage Device, Open Approach",
           "import": 174
         },
         {
           "id": 48,
-          "isValidate": "Pending",
           "state": false,
           "description": "Supplement Left 1st Toe with Nonaut Sub, Perc Endo Approach",
           "import": 434
         },
         {
           "id": 565,
-          "isValidate": "Pending",
           "state": false,
           "description": "Drainage of Nasopharynx, Open Approach",
           "import": 1153
         },
         {
           "id": 142,
-          "isValidate": "Pending",
           "state": false,
           "description": "Revision of Extraluminal Device in Low Art, Open Approach",
           "import": 65
         },
         {
           "id": 730,
-          "isValidate": "Pending",
           "state": false,
           "description": "Excision of Cervical Vertebral Joint, Perc Approach, Diagn",
           "import": 662
         },
         {
           "id": 716,
-          "isValidate": "Pending",
           "state": false,
           "description": "Drainage of Left External Ear, Open Approach",
           "import": 1263
         },
         {
           "id": 593,
-          "isValidate": "Pending",
           "state": false,
           "description": "Supplement Left Patella with Nonaut Sub, Perc Endo Approach",
           "import": 591
         },
         {
           "id": 384,
-          "isValidate": "Pending",
           "state": false,
           "description": "Bypass Gallbladder to Stomach, Open Approach",
           "import": 1262
@@ -700,42 +614,36 @@
       "order": [
         {
           "id": 593,
-          "isValidate": "Pending",
           "state": false,
           "description": "Supplement Left Patella with Nonaut Sub, Perc Endo Approach",
           "import": 591
         },
         {
           "id": 384,
-          "isValidate": "Pending",
           "state": false,
           "description": "Bypass Gallbladder to Stomach, Open Approach",
           "import": 1262
         },
         {
           "id": 157,
-          "isValidate": "Pending",
           "state": false,
           "description": "Replacement of Left Atrium with Autol Sub, Open Approach",
           "import": 549
         },
         {
           "id": 27,
-          "isValidate": "Pending",
           "state": false,
           "description": "Insertion of Endotracheal Airway into Trachea, Perc Approach",
           "import": 1363
         },
         {
           "id": 35,
-          "isValidate": "Pending",
           "state": false,
           "description": "Supplement Left Kidney Pelvis with Synth Sub, Open Approach",
           "import": 481
         },
         {
           "id": 372,
-          "isValidate": "Pending",
           "state": false,
           "description": "Revision of Liner in Right Knee Joint, Open Approach",
           "import": 916
@@ -749,91 +657,78 @@
       "order": [
         {
           "id": 170,
-          "isValidate": "Pending",
           "state": false,
           "description": "Excision of Left Lower Femur, Open Approach",
           "import": 402
         },
         {
           "id": 560,
-          "isValidate": "Pending",
           "state": false,
           "description": "Dilation of L Renal Art with 4 Drug-elut, Open Approach",
           "import": 1316
         },
         {
           "id": 478,
-          "isValidate": "Pending",
           "state": false,
           "description": "Reposition Right Internal Mammary Artery, Open Approach",
           "import": 1411
         },
         {
           "id": 307,
-          "isValidate": "Pending",
           "state": false,
           "description": "Dilate R Thyroid Art, Bifurc, w 4 Drug-elut, Open",
           "import": 1472
         },
         {
           "id": 122,
-          "isValidate": "Pending",
           "state": false,
           "description": "Remove Drain Dev from Up Extrem Subcu/Fascia, Open",
           "import": 1256
         },
         {
           "id": 761,
-          "isValidate": "Pending",
           "state": false,
           "description": "Dilation of Trachea, Open Approach",
           "import": 1123
         },
         {
           "id": 437,
-          "isValidate": "Pending",
           "state": false,
           "description": "Dilate L Axilla Art, Bifurc, w 3 Drug-elut, Perc",
           "import": 1464
         },
         {
           "id": 872,
-          "isValidate": "Pending",
           "state": false,
           "description": "Drainage of Sacrum with Drainage Device, Open Approach",
           "import": 174
         },
         {
           "id": 48,
-          "isValidate": "Pending",
           "state": false,
           "description": "Supplement Left 1st Toe with Nonaut Sub, Perc Endo Approach",
           "import": 434
         },
         {
           "id": 565,
-          "isValidate": "Pending",
           "state": false,
           "description": "Drainage of Nasopharynx, Open Approach",
           "import": 1153
         },
         {
           "id": 142,
-          "isValidate": "Pending",
           "state": false,
           "description": "Revision of Extraluminal Device in Low Art, Open Approach",
           "import": 65
         },
         {
           "id": 730,
-          "isValidate": "Pending",
           "state": false,
           "description": "Excision of Cervical Vertebral Joint, Perc Approach, Diagn",
           "import": 662
         },
         {
           "id": 716,
-          "isValidate": "Pending",
           "state": false,
           "description": "Drainage of Left External Ear, Open Approach",
           "import": 1263

@@ -9,7 +9,7 @@ import TableRow from "@material-ui/core/TableRow";
 import Paper from "@material-ui/core/Paper";
 
 import { OrderRow } from "./order.row";
-import { Order, OrderForm } from "../core/myContext.model";
+import { Order } from "../core/myContext.model";
 import { MyContext } from "../core/myContext.";
 
 const useStyles = makeStyles({
@@ -36,9 +36,23 @@ export const OrderDetailTable = () => {
   const classes = useStyles();
 
   const handleClickValidate = () => {
+    if (checkedList.length > 0) {
+      const newStateOrder: Order[] = data.order.map((element) => {
+        if (checkedList.includes(element.id)) {
+          return { ...element, state: true };
+        } else {
+          return { ...element };
+        }
+      });
+
+      setData({ ...data, order: newStateOrder });
+    }
+  };
+
+  const handleClickInValidate = () => {
     const newStateOrder: Order[] = data.order.map((element) => {
       if (checkedList.includes(element.id)) {
-        return { ...element, isValidate: "Validate", state: true };
+        return { ...element, state: false };
       } else {
         return { ...element };
       }
@@ -47,16 +61,12 @@ export const OrderDetailTable = () => {
     setData({ ...data, order: newStateOrder });
   };
 
-  const handleClickInValidate = () => {
-    const newStateOrder: Order[] = data.order.map((element) => {
-      if (checkedList.includes(element.id)) {
-        return { ...element, isValidate: "Pending", state: false };
-      } else {
-        return { ...element };
-      }
-    });
+  const handleChangeImport = (e, id) => {
+    const newArrayWithNewImports = data.order.map((elem) =>
+      elem.id === id ? { ...elem, import: e.target.value } : { ...elem }
+    );
 
-    setData({ ...data, order: newStateOrder });
+    setData({ ...data, order: newArrayWithNewImports });
   };
 
   return (
@@ -76,8 +86,13 @@ export const OrderDetailTable = () => {
             </TableRow>
           </TableHead>
           <TableBody>
-            {data.order.map((product) => (
-              <OrderRow product={product} key={product.id} />
+            {data.order.map((product, index) => (
+              <OrderRow
+                index={index}
+                product={product}
+                key={product.id}
+                handleChangeImport={handleChangeImport}
+              />
             ))}
           </TableBody>
         </Table>

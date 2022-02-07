@@ -12,34 +12,37 @@ const orderRowStyles = makeStyles({
     width: 75,
   },
 });
-interface Props {
-  product: Order;
-}
+// interface Props {
+//   product: Order;
+//   handleChangeImport: () => void;
+// }
 
-export const OrderRow = (props: Props) => {
-  const { product } = props;
+export const OrderRow = (props) => {
+  const { product, handleChangeImport, index } = props;
   const { data, setData, checkedList, setCheckedList } =
     React.useContext(MyContext);
+  const [productLine, setProductLine] = React.useState(product);
   const [inputValue, setInputValue] = React.useState(product.import);
   const [isChecked, setIsChecked] = React.useState<boolean>(product.state);
 
   const classes = orderRowStyles();
 
   const handleChangeCheck = () => {
-    setIsChecked(!isChecked);
     if (!isChecked) {
       setCheckedList([...checkedList, product.id]);
     } else {
       const newCheckedArray = checkedList.filter((id) => id !== product.id);
       setCheckedList(newCheckedArray);
     }
+    setIsChecked(!isChecked);
   };
 
-  const handleChangeImport = (e) => {
+  const handleChangeImports = (e) => {
     setInputValue(e.target.value);
-    console.log(e.target.value);
+    handleChangeImport(e, product.id, index);
+    // setProductLine({ ...productLine, import: e.target.value });
+    // setData({ ...data, order:{ ...order, data.order }})
   };
-
   return (
     <TableRow>
       <TableCell size="small" scope="row">
@@ -49,14 +52,16 @@ export const OrderRow = (props: Props) => {
           onChange={handleChangeCheck}
         ></input>
       </TableCell>
-      <TableCell align="left">{product.isValidate}</TableCell>
+      <TableCell align="left">
+        {!product.state ? "Pendent" : "Validate"}
+      </TableCell>
       <TableCell align="left">{product.description}</TableCell>
       <TableCell align="center">
         <input
           type="text"
           className={classes.importInput}
           value={inputValue}
-          onChange={handleChangeImport}
+          onChange={handleChangeImports}
         />
         €
       </TableCell>
